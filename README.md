@@ -1,6 +1,5 @@
 # Final Project QA – LMS B2B Dibimbing
 
-![CI/CD](https://github.com/spideynih/FinalProject-QA/actions/workflows/automation.yml/badge.svg)
 
 Project ini merupakan bagian dari Bootcamp Quality Assurance – dibimbing.id.  
 Fokus project ini adalah **UI & API Automation Testing** menggunakan **Selenium** dan **RestAssured** dengan pendekatan **Page Object Model (POM)**.  
@@ -13,6 +12,17 @@ Final Project QA akan menggunakan platform **LMS B2B Dibimbing** sebagai objek p
 
 - Website: [LMS B2B Dibimbing Login](https://lms-b2b.do.dibimbing.id/dibimbingqa/login)  
 - Dokumentasi API: [LMS B2B GraphQL API](https://lmsb2b.do.dibimbing.id/graphql)  
+
+---
+
+## Tools & Tech Stack
+- **Language & Frameworks:** Java 17, Selenium WebDriver, TestNG, RestAssured  
+- **Build & Dependency:** Gradle  
+- **IDE:** IntelliJ IDEA  
+- **Reporting:** ExtentReports  
+- **CI/CD:** GitHub Actions  
+- **Browser:** Chrome (headless)  
+- **Version Control:** Git & GitHub  
 
 ---
 
@@ -40,3 +50,5 @@ Final Project QA akan menggunakan platform **LMS B2B Dibimbing** sebagai objek p
 | API_EMP_001 | Add Employee API | Employee berhasil dibuat dengan ID unik |
 | API_EMP_002 | Edit Employee API | Employee berhasil diupdate |
 | API_EMP_003 | Delete Employee API | Employee berhasil dihapus |
+
+---

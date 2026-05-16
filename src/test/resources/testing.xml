@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Final Project QA" verbose="1">
+
+    <test name="Login Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ui.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Add Employee Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ui.AddEmployeeTest"/>
+        </classes>
+    </test>
+
+    <test name="Edit Employee Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ui.EditEmployeeTest"/>
+        </classes>
+    </test>
+
+    <test name="Delete Employee Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ui.DeleteEmployeeTest"/>
+        </classes>
+    </test>
+
+    <test name="Login API Tests">
+        <classes>
+            <class name="api.LoginApiTest"/>
+        </classes>
+    </test>
+
+    <test name="Employee API Tests">
+        <classes>
+            <class name="api.EmployeeApiTest"/>
+        </classes>
+    </test>
+
+</suite>

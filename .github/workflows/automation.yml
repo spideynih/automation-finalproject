@@ -43,15 +43,16 @@ jobs:
       - name: Run all tests
         run: ./gradlew clean test
 
+
       - name: Upload Extent Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: extent-report
           path: build/reports/extent/
 
       - name: Upload Screenshots
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: screenshots
